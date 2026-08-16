@@ -5,8 +5,8 @@ public abstract class Tarea {
 	private String nombre;
 	private boolean esObligatoria;
 	
-	public Tarea(String id, String nombre, boolean esObligatoria) {
-		this.id=id;
+	public Tarea(String nombre, boolean esObligatoria) {
+		this.id=java.util.UUID.randomUUID().toString();
 		this.nombre=nombre;
 		this.esObligatoria=esObligatoria;
 	}

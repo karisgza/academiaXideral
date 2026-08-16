@@ -4,8 +4,8 @@ public class TareaDeAdministrarMedicinas extends Tarea {
 	private String nombreMedicina;
 	private String dosis;
 	
-	public TareaDeAdministrarMedicinas(String ID, String nombre, boolean esObligatoria, String nombreMedicina, String dosis) {
-		super(ID, nombre, esObligatoria);
+	public TareaDeAdministrarMedicinas(String nombre, boolean esObligatoria, String nombreMedicina, String dosis) {
+		super(nombre, esObligatoria);
 		this.nombreMedicina=nombreMedicina;
 		this.dosis=dosis;
 	}

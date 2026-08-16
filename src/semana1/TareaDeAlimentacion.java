@@ -4,8 +4,8 @@ public class TareaDeAlimentacion extends Tarea {
 	private String tipoAlimento;
 	private double porcionGramos;
 	
-	public TareaDeAlimentacion(String ID, String nombre, boolean esObligatoria, String tipoAlimento, double porcionGramos) {
-		super(ID, nombre, esObligatoria);
+	public TareaDeAlimentacion(String nombre, boolean esObligatoria, String tipoAlimento, double porcionGramos) {
+		super(nombre, esObligatoria);
 		this.tipoAlimento=tipoAlimento;
 		this.porcionGramos=porcionGramos;
 	}
