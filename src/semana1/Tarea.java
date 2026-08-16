@@ -23,7 +23,7 @@ public abstract class Tarea {
 		return esObligatoria;
 	}
 	
-	public abstract String obtenerDetallesDeLaTarea();
+	public abstract String obtenerDetallesTarea();
 	public abstract boolean validarEstado(Bitacora bitacora);
 
 }

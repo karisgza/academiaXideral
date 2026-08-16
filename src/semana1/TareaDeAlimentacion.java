@@ -14,7 +14,7 @@ public class TareaDeAlimentacion extends Tarea {
 		return "Se alimento con: " +porcionGramos+" de "+tipoAlimento;
 	}
 	public boolean validarEstado(Bitacora bitacora) {
-		return bitacora.
+		return bitacora.getNotas() != null && bitacora.getNotas().isBlank();
 	}
 
 }
