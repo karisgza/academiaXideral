@@ -15,5 +15,29 @@ public class Bitacora {
 		this.tarea=tarea;
 		this.estado=EstadoTarea.PENDIENTE;
 	}
+	public void completarTarea(String notas, String URLFoto) {
+		this.estado=EstadoTarea.COMPLETADA;
+		this.fechaCompletada = LocalDateTime.now();
+		this.notas=notas;
+		this.URLFoto=URLFoto;
+	}
+	public String getID() {
+		return id;
+	}
+	public Tarea getTarea() {
+		return tarea;
+	}
+	public EstadoTarea getEstado() {
+		return estado;
+	}
+	public LocalDateTime getFechaCompletada() {
+		return fechaCompletada;
+	}
+	public String getNotas() {
+		return notas;
+	}
+	public String getURLFoto() {
+		return URLFoto;
+	}
 
 }
