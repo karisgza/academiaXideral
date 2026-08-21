@@ -1,1 +1,1 @@
-Proyecto integrador de la semana 1
+Proyectos de la academia BackEnd QE Copilot
