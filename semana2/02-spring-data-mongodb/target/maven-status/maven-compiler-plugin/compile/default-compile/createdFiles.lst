@@ -1,0 +1,6 @@
+com\luv2code\springboot\cruddemo\repository\MascotaRepository.class
+com\luv2code\springboot\cruddemo\entity\Mascota.class
+com\luv2code\springboot\cruddemo\service\MascotaService.class
+com\luv2code\springboot\cruddemo\CruddemoApplication.class
+com\luv2code\springboot\cruddemo\rest\MascotaRestController.class
+com\luv2code\springboot\cruddemo\service\MascotaServiceImpl.class
