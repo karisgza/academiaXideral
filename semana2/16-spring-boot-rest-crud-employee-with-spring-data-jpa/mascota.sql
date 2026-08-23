@@ -1,0 +1,14 @@
+CREATE DATABASE IF NOT EXISTS
+mascota_directory;
+USE mascota_directory;
+DROP TABLE IF EXISTS mascota;
+
+CREATE TABLE mascota (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    raza VARCHAR(100),
+    edad INT,
+    PRIMARY KEY(id)
+)ENGINE=InnoDB
+AUTO_INCREMENT=1 DEFAULT
+CHARSET=latin1;
